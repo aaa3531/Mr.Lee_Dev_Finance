@@ -1,0 +1,52 @@
+@charset "utf-8";
+/**
+ * @author https://www.cosmosfarm.com/
+ */
+
+.productMain { }
+.productMain .leftContents .overview { margin-bottom: 0 !important; }
+.dscNavi { padding-top: 67px; background-color: transparent !important; }
+
+.ratingStars { line-height: 1; }
+.ratingStars .dashicons { width: 30px; height: 30px; font-size: 30px; }
+
+@media screen and (max-width: 600px) {
+	.productMain .leftContents .overview { margin-bottom: 40px !important; }
+	.dscNavi { padding-top: 0; }
+	
+	/* 프로그램 내용 꽉차게 */
+	.productMain .dscContents { position: relative; left: -30px; }
+}
+
+.cosmosfarm-members-reviews #respond { margin: 40px 0; }
+.cosmosfarm-members-reviews .comments-info { display: table; width: 100%; }
+.cosmosfarm-members-reviews .comments-info .comments-info-column { display: table-cell; width: 50%; vertical-align: middle; }
+.cosmosfarm-members-reviews .comments-info .average-ratings { margin: 10px 0; font-size: 13px; text-align: center; }
+.cosmosfarm-members-reviews .comments-info .average-ratings .large-font { font-size: 20px; }
+.cosmosfarm-members-reviews .comments-info .comments-stars { margin: 10px 0; text-align: center;}
+.cosmosfarm-members-reviews .comments-info .comments-stars .dashicons { width: 30px; height: 30px; font-size: 30px; }
+.cosmosfarm-members-reviews .comments-info .total-comments-count { margin: 10px 0; font-size: 13px; text-align: center;}
+.cosmosfarm-members-reviews .comments-info .progressbar-wrap { margin: 10px; }
+.cosmosfarm-members-reviews .comments-info .progressbar-wrap .progressbar { position: relative; margin: 3px 0; height: 20px; overflow: hidden; box-sizing: content-box; }
+.cosmosfarm-members-reviews .comments-info .progressbar-wrap .progressbar .progressbar-title { position: absolute; left: 0; top: 0; width: 20px; height: 100%; line-height: 20px; font-size: 10px; box-sizing: content-box; }
+.cosmosfarm-members-reviews .comments-info .progressbar-wrap .progressbar .progressbar-background { margin: 5px 0 5px 20px; height: 10px; background-color: #efeff4; overflow: hidden; box-sizing: content-box; }
+.cosmosfarm-members-reviews .comments-info .progressbar-wrap .progressbar .progressbar-background .progressbar-fill { height: 100%; background-color: #8e8e93; box-sizing: content-box; }
+.cosmosfarm-members-reviews .comment-list { margin: 0; list-style: none; }
+.cosmosfarm-members-reviews .comment-list li { margin: 20px 0; list-style: none; }
+.cosmosfarm-members-reviews .comment-header { overflow: hidden; }
+.cosmosfarm-members-reviews .comment-header .comment-author.vcard { float: left; }
+.cosmosfarm-members-reviews .comment-header .comment-author.vcard .avatar { border: 1px solid #f1f1f1; border-radius: 50%; }
+.cosmosfarm-members-reviews .comment-header .comment-meta { margin-left: 55px; margin-bottom: 10px; line-height: 1; }
+.cosmosfarm-members-reviews .comment-header .comment-meta .comment-display-name { margin-right: 10px; color: #4a4a4a; }
+.cosmosfarm-members-reviews .comment-header .comment-meta .comment-display-name a { color: #4a4a4a; text-decoration: none; }
+.cosmosfarm-members-reviews .comment-header .comment-meta .comment-date { font-size: 12px; color: #939393; }
+.cosmosfarm-members-reviews .comment-header .comment-rating { margin-left: 55px; margin-bottom: 10px; line-height: 1; font-size: 20px; }
+.cosmosfarm-members-reviews .comment-details { margin-left: 55px; }
+.cosmosfarm-members-reviews .comment-details .comment-content { margin-bottom: 10px; padding: 0 10px; background-color: #fafafa; border: 1px solid #f1f1f1; border-radius: 5px; color: #4a4a4a; }
+.cosmosfarm-members-reviews .comment-details a.comment-reply-link { font-size: 12px; color: #939393; text-decoration: none; }
+.cosmosfarm-members-reviews .comment-details a.comment-edit-link { font-size: 12px; color: #939393; text-decoration: none; }
+.cosmosfarm-members-reviews .children { margin-left: 55px; }
+
+@media screen and (max-width: 600px) {
+	.cosmosfarm-members-reviews .comments-info .progressbar-wrap { margin-right: 0; }
+}

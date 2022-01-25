@@ -1,0 +1,133 @@
+@charset "utf-8";
+/**
+ * @author https://www.cosmosfarm.com/
+ */
+.cosmosfarm-members-form { display: block; margin: 0 auto; width: 50%; }
+/*.cosmosfarm-members-form:first-child { display: block; }*/
+
+.cosmosfarm-members-form.signin-form { width: 100%; }
+.cosmosfarm-members-form .form-wrap { overflow: hidden; }
+.cosmosfarm-members-form .form-top { border: 1px solid #cccccc; border-bottom: 0; text-align: center; }
+.cosmosfarm-members-form .form-top .form-top-wrap { padding: 55px 0 25px 0; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-top-fields { display:inline-block; vertical-align: top; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-top-button { display:inline-block; vertical-align: top; padding-left: 10px; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-top-button .login-button { margin: 0; padding: 0; width: 110px; height: 88px; border:0; background-color: #444444; color: white; vertical-align: middle; cursor: pointer; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-input-row { position: relative; margin: 0; padding-bottom: 12px; overflow: hidden; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-input-row label { float: left; margin: 0; padding: 0; display: block; width: 85px; height: 38px; line-height: 38px; font-size: 15px; text-align: left; box-sizing: content-box; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-input-row input { float: left; margin: 0; padding: 0 10px; width: 280px; height: 36px; line-height: 36px; font-size: 15px; border: 1px solid #cdcdcd; box-sizing: content-box; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-checkbox-row { overflow: hidden; padding-left: 85px; text-align: left; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-checkbox-row label { letter-spacing: -1px; font-size: 13px; cursor: pointer; }
+.cosmosfarm-members-form .form-top .form-top-wrap .form-checkbox-row label input[type=checkbox] { margin: 4px; font-size: 13px; cursor: pointer; vertical-align: middle; }
+.cosmosfarm-members-form .form-bottom { padding: 40px 0; border: 1px solid #cccccc; background-color: #eeeeee; text-align: center; }
+.cosmosfarm-members-form .form-bottom .form-link-item { display: inline; }
+.cosmosfarm-members-form .form-bottom .form-button { display: inline-block; width: 226px; height: 49px; line-height: 49px; background-color: white; border: 1px solid #b6b6b6; color: #333333; vertical-align: middle; cursor: pointer; }
+
+.cosmosfarm-members-form form { margin: 0; padding: 0; }
+.cosmosfarm-members-form img { display: inline; border: 0; }
+.cosmosfarm-members-form a { position: static; display: inline-block; *display: inline; zoom: 1; margin: 0; padding: 0; border: 0; font-weight: normal; background-image: none; cursor: pointer; vertical-align: middle; text-shadow: none; text-decoration: none; box-shadow: none; outline: none; }
+.cosmosfarm-members-form fieldset { position: static; display: block; margin: 0; padding: 0; min-width: 0; border: 0; background-color: transparent; overflow: hidden; }
+.cosmosfarm-members-form legend { display: none; }
+.cosmosfarm-members-form label { float: none; position: static; display: block; margin: 0; padding: 0 0 10px 0; font-size: 15px; line-height: 20px; }
+.cosmosfarm-members-form select,
+.cosmosfarm-members-form input[type=text],
+.cosmosfarm-members-form input[type=email],
+.cosmosfarm-members-form input[type=date],
+.cosmosfarm-members-form input[type=url],
+.cosmosfarm-members-form input[type=number],
+.cosmosfarm-members-form input[type=password] { position: static; display: block; margin: 0; padding: 0 12px; width: 100%; max-width: 100%; height: 40px; line-height: 40px; border: 1px solid #c4c4c4; font-size: 15px; box-sizing: border-box; outline: none; color: #1a1a1a; background: none; background-color: white; box-shadow: none; border-radius: 2px; cursor: text; }
+.cosmosfarm-members-form select:hover,
+.cosmosfarm-members-form input[type=text]:hover,
+.cosmosfarm-members-form input[type=email]:hover,
+.cosmosfarm-members-form input[type=date]:hover,
+.cosmosfarm-members-form input[type=url]:hover,
+.cosmosfarm-members-form input[type=number]:hover,
+.cosmosfarm-members-form input[type=password]:hover,
+.cosmosfarm-members-form select:focus,
+.cosmosfarm-members-form input[type=text]:focus,
+.cosmosfarm-members-form input[type=email]:focus,
+.cosmosfarm-members-form input[type=date]:focus,
+.cosmosfarm-members-form input[type=url]:focus,
+.cosmosfarm-members-form input[type=number]:focus,
+.cosmosfarm-members-form input[type=password]:focus { border: 1px solid #c4c4c4; background: none; background-color: white; box-shadow: none; }
+.cosmosfarm-members-form input[type=checkbox] { position: static; height: auto; width: auto; }
+.cosmosfarm-members-form button,
+.cosmosfarm-members-form input[type=submit] { position: static; display: block; margin: 0; padding: 0 20px !important; width: 100%; max-width: 100%; height: 40px; line-height: 40px; font-size: 15px; box-sizing: border-box; outline: none; color: white; border: 0; background: none; background-color: #444444 !important; box-shadow: none; border-radius: 2px; cursor: pointer; }
+.cosmosfarm-members-form button:hover,
+.cosmosfarm-members-form input[type=submit]:hover,
+.cosmosfarm-members-form button:focus,
+.cosmosfarm-members-form input[type=submit]:focus { color: white; border: 0; background: none; background-color: #444444; box-shadow: none; }
+.cosmosfarm-members-form textarea { position: static; display: block; margin: 0; padding: 12px; width: 100%; max-width: 100%; height: 200px; line-height: normal; border: 1px solid #c4c4c4; font-size: 15px; box-sizing: border-box; outline: none; color: #1a1a1a; background: none; background-color: white; box-shadow: none; border-radius: 2px; cursor: text; }
+.cosmosfarm-members-form textarea:hover,
+.cosmosfarm-members-form textarea:focus { border: 1px solid #c4c4c4; background: none; background-color: white; box-shadow: none; }
+.cosmosfarm-members-form input.cursor-pointer { cursor: pointer; }
+.cosmosfarm-members-form input.cursor-default { cursor: default; }
+.cosmosfarm-members-form .policy_content { padding: 12px; height: 200px; border: 0; cursor: pointer; font-size: 15px; box-sizing: border-box; overflow-y: auto; color: #1a1a1a; background-color: #f2f2f2; border-radius: 2px; }
+.cosmosfarm-members-form .policy_content:hover,
+.cosmosfarm-members-form .policy_content:focus { border: 0; }
+.cosmosfarm-members-form .req { color: red; }
+.cosmosfarm-members-form .div_multicheckbox,
+.cosmosfarm-members-form .div_multiselect,
+.cosmosfarm-members-form .div_checkbox,
+.cosmosfarm-members-form .div_textarea,
+.cosmosfarm-members-form .div_select,
+.cosmosfarm-members-form .div_image,
+.cosmosfarm-members-form .div_radio,
+.cosmosfarm-members-form .div_file,
+.cosmosfarm-members-form .div_text { margin: 0 0 20px 0; overflow: hidden; }
+.cosmosfarm-members-form .div_multiselect select { height: auto; }
+.cosmosfarm-members-form .div_checkbox label { display: inline; margin: 0; padding: 0 10px 0 0; }
+.cosmosfarm-members-form .div_checkbox input { display: inline; margin: 0; padding: 0; }
+.cosmosfarm-members-form .add-buttons { position: relative; }
+.cosmosfarm-members-form .add-buttons .add-buttons-wrap { position: absolute; right: 5px; top: 5px; }
+.cosmosfarm-members-form .add-buttons .add-buttons-wrap button { padding: 0 20px; width: auto; height: 30px; line-height: 30px; font-size: 13px; font-weight: normal; color: white; background-color: #999999; }
+.cosmosfarm-members-form .button_div { margin: 0 0 20px 0; overflow: hidden; }
+.cosmosfarm-members-form .button_div label { letter-spacing: -1px; font-size: 13px; cursor: pointer; }
+.cosmosfarm-members-form .button_div label input[type=checkbox] { margin: 4px; cursor: pointer; vertical-align: middle; }
+.cosmosfarm-members-form .link-text { margin: 0 0 5px 0; text-align: right; }
+.cosmosfarm-members-form .captcha { margin: 0 0 20px 0; text-align: left; }
+.cosmosfarm-members-form .captcha .g-recaptcha { display: block; margin: 0 auto; width: 304px; }
+.cosmosfarm-members-form .agree { margin: 0 0 20px 0; }
+.cosmosfarm-members-form .agree textarea { cursor: default; height: 100px; }
+.cosmosfarm-members-form .agree label { cursor: pointer; }
+.cosmosfarm-members-form .password-strength-meter-display { font-size: 13px; }
+.cosmosfarm-members-form .password-strength-meter-display.good { color: #18509d; }
+.cosmosfarm-members-form .password-strength-meter-display.bad { color: #ed1c24; }
+.cosmosfarm-members-form .field-description { font-size: 13px; }
+.cosmosfarm-members-form .message { margin: 20px 0; padding: 20px; background-color: #f0f0f0; text-align: center; }
+.cosmosfarm-members-form .message p { margin: 10px 0; }
+.cosmosfarm-members-form .message a { font-size: 14px; padding: 0 30px; height: 40px; line-height: 40px; border: 1px solid #c4c4c4; outline: none; background-color: transparent; cursor: pointer; }
+.cosmosfarm-members-form .profile-header { position: relative; margin: 30px 0; }
+.cosmosfarm-members-form .profile-header input[type=file] { position: absolute !important; margin: -1px !important; padding: 0 !important; width: 1px !important; height: 1px !important; border: 0 !important; box-shadow: none !important; overflow: hidden !important; clip: rect(0,0,0,0) !important; }
+.cosmosfarm-members-form .profile-header .avatar-img { margin-bottom: 15px; text-align: center; }
+.cosmosfarm-members-form .profile-header .avatar-img .change-avatar-message { display: block; margin: 4px 0; font-size: 12px; line-height: 12px; color: RGBA(0,0,0,0.5); }
+.cosmosfarm-members-form .profile-header .avatar-img img { float: none; display: inline; margin: 0; padding: 0; width: 150px; height: 150px; border-radius: 50%; border: 1px solid #eaebeb; box-shadow: none; vertical-align: middle; pointer-events: none; }
+.cosmosfarm-members-form .profile-header .avatar-img label { float: none; display: inline-block; margin: 0; padding: 0; cursor: pointer; }
+.cosmosfarm-members-form .profile-header .display-name { text-align: center; font-size: 24px; font-weight: bold; color: #444444; }
+.cosmosfarm-members-form .members-link { margin: 0; padding: 0; list-style: none; background-color: #444444; border-left: 1px solid #3b3b3b; border-top: 1px solid #3b3b3b; overflow: hidden; }
+.cosmosfarm-members-form .members-link li { display: table; float: left; margin: 0; padding: 0; list-style: none; list-style-type: none !important; width: 50%; height: auto; background: none; }
+.cosmosfarm-members-form .members-link li a { display: table-cell; padding: 10px; height: 80px; color: white; text-align: center; background: none; border-right: 1px solid #3b3b3b; border-bottom: 1px solid #3b3b3b; text-decoration: none; word-break: break-all; }
+.cosmosfarm-members-form .members-link li a:hover { border-bottom: 1px solid #3b3b3b; text-decoration: underline; }
+
+.cosmosfarm-social-login { text-align: center; }
+.cosmosfarm-social-login .cosmosfarm-social-login-title { padding: 10px 0 0 0; }
+.cosmosfarm-social-login a { position: static; display: inline-block; *display: inline; zoom: 1; padding: 5px; box-shadow: none; }
+.cosmosfarm-social-login a img { display: inline; width: 40px !important; border: 0; box-shadow: none; vertical-align: middle; }
+
+.cosmosfarm-members-form .cosmosfarm-social-login { padding-bottom: 40px; }
+
+@media screen and (max-width: 600px) {
+	.cosmosfarm-members-form { width: 100% !important; }
+	.cosmosfarm-members-form .form-top { border: 0; }
+	.cosmosfarm-members-form .form-top .form-top-wrap { padding: 0 0 40px 0; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-top-fields { width: 100%; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-input-row label { padding: 0 0 10px 0; height: 20px; line-height: 20px; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-input-row input { margin: 0 0 8px 0; width: 100%; height: 40px; line-height: 40px; box-sizing: border-box; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-checkbox-row { padding-left: 0; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-top-button { padding: 0; width: 100%; }
+	.cosmosfarm-members-form .form-top .form-top-wrap .form-top-button .login-button { width: 100%; height: 40px; }
+	.cosmosfarm-members-form .form-bottom { border: 0; }
+	.cosmosfarm-members-form .cosmosfarm-social-login { padding-bottom: 20px; }
+	.cosmosfarm-members-form .form-bottom { padding: 20px 0; }
+	.cosmosfarm-members-form .form-bottom .form-button { margin: 5px 0; width: 90%; }
+	.cosmosfarm-members-form .members-link li { width: 100% !important; }
+}

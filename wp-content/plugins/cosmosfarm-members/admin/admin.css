@@ -1,0 +1,36 @@
+@charset "utf-8";
+/**
+ * @author https://www.cosmosfarm.com/
+ */
+
+#cosmosfarm_members_social_login_active { width: 50%; }
+#cosmosfarm_members_social_login_active .ui-state-default { margin-bottom: 10px; padding: 10px; background-color: #fafafa; border: 1px solid #e5e5e5; }
+#cosmosfarm_members_social_login_active .ui-state-default label { display: block; width: 100%; }
+#cosmosfarm_members_social_login_active .ui-state-default input[type=text] { width: 100%; }
+
+.cosmosfarm-members.subscription-fields .cosmosfarm-members-subscription-fields { cursor: move; }
+
+.cosmosfarm-subscription-product-setting { display: none; }
+.cosmosfarm-subscription-product-setting-active { display: block; }
+
+table.subscription-order .status-paid { color: #3f51b5; }
+table.subscription-order .status-cancelled { color: #e91e63; }
+
+table.subscription-order .subscription-next-wait { color: #3f51b5; }
+table.subscription-order .subscription-next-expiry { color: #e91e63; }
+
+#product-gallery-img { margin: 0; padding: 0; list-style: none; overflow: hidden; }
+#product-gallery-img li { float: left; margin: 0 5px 0 0; padding: 0; list-style: none; cursor: pointer; }
+
+.alimtalk-template-wrap { overflow: hidden; }
+.alimtalk-template-left { float: left; width: 70%; }
+.alimtalk-template-left .template-replace { padding: 5px; cursor: pointer; }
+.alimtalk-template-left .selected { background: #ddd; }
+.alimtalk-template-right { float: left; width: 30%; }
+
+.builtin-pg-setting { display: none; }
+.builtin-pg-setting.active { display: table; }
+
+@media screen and (max-width: 600px) {
+	#cosmosfarm_members_social_login_active { width: 100%; }
+}

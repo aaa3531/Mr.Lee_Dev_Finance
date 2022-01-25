@@ -1,0 +1,42 @@
+/*
+Theme Name: Arkteria
+Author: Arkteria
+Description: Arkteria
+Version: 1.0.0
+*/
+@charset "utf-8";
+@media all and (max-width: 1280px){
+    .page-w{
+        width: 1024px;
+    }
+    .index-trends-list > li:not(:first-child) > a span{
+        height: 90px;
+        display: block;
+        overflow: hidden;
+    }
+}
+@media all and (max-width: 1024px){
+    .page-w{
+        width: 767px;
+    }
+    .article{
+        width: 100%;
+    }
+    #trends-sec,
+    #latest-news{
+        display:none;
+    }
+    #trends-sec-mobile,
+    #latest-news-mobile{
+        display:block;
+    }
+    #index-sidebar{
+        display:none;
+    }
+}
+@media all and (max-width: 768px){
+    .page-w{
+        width:100%;
+        padding: 0 20px;
+    }
+}
